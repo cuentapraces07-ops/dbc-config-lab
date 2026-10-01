@@ -1,0 +1,29 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> dbc-config-lab@0.1.0 test
+> node --test lab.test.mjs
+
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+✔ quotes use official SDK integer output regression (76.205951ms)
+✔ fee decomposition balances to exact input (59.712624ms)
+✔ higher fees reduce output with equal curve settings (107.994608ms)
+✔ slippage changes floor and not output (108.836048ms)
+✔ oversized swap rejected visibly (49.352912ms)
+✔ each quote is independent of previous inputs (102.281838ms)
+✔ migration and locking policy retained (0.780397ms)
+✔ integer precision above JS safe range (0.274034ms)
+✔ invalid amount spellings fail (0.352422ms)
+✔ invalid numeric parameters fail before simulation (0.548508ms)
+✔ unknown fields and empty arrays fail (0.226061ms)
+✔ config integers serialized as decimal strings (58.737462ms)
+✔ reproducible input digest changes on meaningful input (222.105487ms)
+✔ HTML escapes user-controlled title and embeds no external scripts (51.876429ms)
+✔ CLI outputs usable JSON and rejects malformed invocation (547.034289ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1695.870513

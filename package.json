@@ -1,0 +1,20 @@
+{
+  "name": "dbc-config-lab",
+  "version": "0.1.0",
+  "description": "Offline launch-state comparison using the official Meteora DBC SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test lab.test.mjs",
+    "demo": "node cli.mjs --html low-fee.json high-fee.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@meteora-ag/dynamic-bonding-curve-sdk": "1.5.13",
+    "bn.js": "5.2.2",
+    "decimal.js": "10.6.0"
+  },
+  "private": true
+}

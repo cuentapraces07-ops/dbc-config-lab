@@ -1,0 +1,352 @@
+[
+  {
+    "schemaVersion": 1,
+    "name": "Low fee launch",
+    "sdkVersion": "1.5.13",
+    "inputSha256": "f292b1c6b0332263ff2a36fc21c41541428acfbdca030b8e6073aacf68192ba7",
+    "assumptions": {
+      "quoteUnit": "quote token (not USD)",
+      "freshPoolPerQuote": true,
+      "constantFeeBps": 25,
+      "dynamicFees": false,
+      "migration": "DAMM v2, fixed 100 bps",
+      "permanentLockedLiquidityPercent": 100,
+      "executesTransactions": false
+    },
+    "startPrice": "3.0000000888906383731e-8",
+    "migrationPrice": "3.9999999999999999064e-7",
+    "migrationQuoteThreshold": "85.994066487",
+    "quotes": [
+      {
+        "input": "0.01",
+        "status": "quoted",
+        "output": "332397.757064",
+        "minimumOutput": "329073.779493",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "10000000",
+          "excludedFeeInputAmount": "9975000",
+          "outputAmount": "332397757064",
+          "nextSqrtPrice": "101068055099329145",
+          "tradingFee": "20000",
+          "protocolFee": "5000",
+          "referralFee": "0",
+          "minimumAmountOut": "329073779493"
+        }
+      },
+      {
+        "input": "0.1",
+        "status": "quoted",
+        "output": "3314804.805158",
+        "minimumOutput": "3281656.757106",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "100000000",
+          "excludedFeeInputAmount": "99750000",
+          "outputAmount": "3314804805158",
+          "nextSqrtPrice": "101347731768837702",
+          "tradingFee": "200000",
+          "protocolFee": "50000",
+          "referralFee": "0",
+          "minimumAmountOut": "3281656757106"
+        }
+      },
+      {
+        "input": "1",
+        "status": "quoted",
+        "output": "32257867.982882",
+        "minimumOutput": "31935289.303053",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "1000000000",
+          "excludedFeeInputAmount": "997500000",
+          "outputAmount": "32257867982882",
+          "nextSqrtPrice": "104144498463923272",
+          "tradingFee": "2000000",
+          "protocolFee": "500000",
+          "referralFee": "0",
+          "minimumAmountOut": "31935289303053"
+        }
+      },
+      {
+        "input": "10",
+        "status": "quoted",
+        "output": "254289941.584507",
+        "minimumOutput": "251747042.168661",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "10000000000",
+          "excludedFeeInputAmount": "9975000000",
+          "outputAmount": "254289941584507",
+          "nextSqrtPrice": "132112165414778968",
+          "tradingFee": "20000000",
+          "protocolFee": "5000000",
+          "referralFee": "0",
+          "minimumAmountOut": "251747042168661"
+        }
+      },
+      {
+        "input": "1000000",
+        "status": "quote_rejected",
+        "reason": "Insufficient Liquidity"
+      }
+    ],
+    "config": {
+      "poolFees": {
+        "baseFee": {
+          "cliffFeeNumerator": "2500000",
+          "firstFactor": 0,
+          "secondFactor": "0",
+          "thirdFactor": "0",
+          "baseFeeMode": 0
+        },
+        "dynamicFee": null
+      },
+      "collectFeeMode": 0,
+      "migrationOption": 1,
+      "activationType": 0,
+      "tokenType": 0,
+      "tokenDecimal": 6,
+      "partnerLiquidityPercentage": 0,
+      "partnerPermanentLockedLiquidityPercentage": 100,
+      "creatorLiquidityPercentage": 0,
+      "creatorPermanentLockedLiquidityPercentage": 0,
+      "migrationQuoteThreshold": "85994066487",
+      "sqrtStartPrice": "101036979913828195",
+      "lockedVesting": {
+        "amountPerPeriod": "0",
+        "cliffDurationFromMigrationTime": "0",
+        "frequency": "0",
+        "numberOfPeriod": "0",
+        "cliffUnlockAmount": "0"
+      },
+      "migrationFeeOption": 2,
+      "tokenSupply": {
+        "preMigrationTokenSupply": "1000000000000000",
+        "postMigrationTokenSupply": "1000000000000000"
+      },
+      "creatorTradingFeePercentage": 0,
+      "tokenUpdateAuthority": 1,
+      "migrationFee": {
+        "feePercentage": 0,
+        "creatorFeePercentage": 0
+      },
+      "migratedPoolFee": {
+        "collectFeeMode": 0,
+        "dynamicFee": 0,
+        "poolFeeBps": 0
+      },
+      "poolCreationFee": "0",
+      "partnerLiquidityVestingInfo": {
+        "vestingPercentage": 0,
+        "bpsPerPeriod": 0,
+        "numberOfPeriods": 0,
+        "cliffDurationFromMigrationTime": 0,
+        "frequency": 0
+      },
+      "creatorLiquidityVestingInfo": {
+        "vestingPercentage": 0,
+        "bpsPerPeriod": 0,
+        "numberOfPeriods": 0,
+        "cliffDurationFromMigrationTime": 0,
+        "frequency": 0
+      },
+      "migratedPoolBaseFeeMode": 0,
+      "migratedPoolMarketCapFeeSchedulerParams": {
+        "numberOfPeriod": 0,
+        "sqrtPriceStepBps": 0,
+        "schedulerExpirationDuration": 0,
+        "reductionFactor": "0"
+      },
+      "enableFirstSwapWithMinFee": false,
+      "compoundingFeeBps": 0,
+      "padding": [],
+      "curve": [
+        {
+          "sqrtPrice": "368934881474191028",
+          "liquidity": "109229166465716155545943430087873"
+        },
+        {
+          "sqrtPrice": "79226673521066979257578248091",
+          "liquidity": "3370327871267820111672321"
+        }
+      ]
+    },
+    "limitations": "Independent launch-state SDK simulations. No cumulative trading, RPC, mainnet usage, live quotes, or executed DAMM migration is claimed."
+  },
+  {
+    "schemaVersion": 1,
+    "name": "Higher fee comparison",
+    "sdkVersion": "1.5.13",
+    "inputSha256": "b82df4d484d328a9187b9b118d553e78d0fdd4051e1ff688fe2688576b19590e",
+    "assumptions": {
+      "quoteUnit": "quote token (not USD)",
+      "freshPoolPerQuote": true,
+      "constantFeeBps": 100,
+      "dynamicFees": false,
+      "migration": "DAMM v2, fixed 100 bps",
+      "permanentLockedLiquidityPercent": 100,
+      "executesTransactions": false
+    },
+    "startPrice": "3.0000000888906383731e-8",
+    "migrationPrice": "3.9999999999999999064e-7",
+    "migrationQuoteThreshold": "85.994066487",
+    "quotes": [
+      {
+        "input": "0.01",
+        "status": "quoted",
+        "output": "329899.288466",
+        "minimumOutput": "326600.295581",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "10000000",
+          "excludedFeeInputAmount": "9900000",
+          "outputAmount": "329899288466",
+          "nextSqrtPrice": "101067821451317860",
+          "tradingFee": "80000",
+          "protocolFee": "20000",
+          "referralFee": "0",
+          "minimumAmountOut": "326600295581"
+        }
+      },
+      {
+        "input": "0.1",
+        "status": "quoted",
+        "output": "3289957.307743",
+        "minimumOutput": "3257057.734665",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "100000000",
+          "excludedFeeInputAmount": "99000000",
+          "outputAmount": "3289957307743",
+          "nextSqrtPrice": "101345395288724849",
+          "tradingFee": "800000",
+          "protocolFee": "200000",
+          "referralFee": "0",
+          "minimumAmountOut": "3257057734665"
+        }
+      },
+      {
+        "input": "1",
+        "status": "quoted",
+        "output": "32022511.867387",
+        "minimumOutput": "31702286.748713",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "1000000000",
+          "excludedFeeInputAmount": "990000000",
+          "outputAmount": "32022511867387",
+          "nextSqrtPrice": "104121133662794737",
+          "tradingFee": "8000000",
+          "protocolFee": "2000000",
+          "referralFee": "0",
+          "minimumAmountOut": "31702286748713"
+        }
+      },
+      {
+        "input": "10",
+        "status": "quoted",
+        "output": "252825123.000233",
+        "minimumOutput": "250296871.77023",
+        "raw": {
+          "amountLeft": "0",
+          "includedFeeInputAmount": "10000000000",
+          "excludedFeeInputAmount": "9900000000",
+          "outputAmount": "252825123000233",
+          "nextSqrtPrice": "131878517403493624",
+          "tradingFee": "80000000",
+          "protocolFee": "20000000",
+          "referralFee": "0",
+          "minimumAmountOut": "250296871770230"
+        }
+      },
+      {
+        "input": "1000000",
+        "status": "quote_rejected",
+        "reason": "Insufficient Liquidity"
+      }
+    ],
+    "config": {
+      "poolFees": {
+        "baseFee": {
+          "cliffFeeNumerator": "10000000",
+          "firstFactor": 0,
+          "secondFactor": "0",
+          "thirdFactor": "0",
+          "baseFeeMode": 0
+        },
+        "dynamicFee": null
+      },
+      "collectFeeMode": 0,
+      "migrationOption": 1,
+      "activationType": 0,
+      "tokenType": 0,
+      "tokenDecimal": 6,
+      "partnerLiquidityPercentage": 0,
+      "partnerPermanentLockedLiquidityPercentage": 100,
+      "creatorLiquidityPercentage": 0,
+      "creatorPermanentLockedLiquidityPercentage": 0,
+      "migrationQuoteThreshold": "85994066487",
+      "sqrtStartPrice": "101036979913828195",
+      "lockedVesting": {
+        "amountPerPeriod": "0",
+        "cliffDurationFromMigrationTime": "0",
+        "frequency": "0",
+        "numberOfPeriod": "0",
+        "cliffUnlockAmount": "0"
+      },
+      "migrationFeeOption": 2,
+      "tokenSupply": {
+        "preMigrationTokenSupply": "1000000000000000",
+        "postMigrationTokenSupply": "1000000000000000"
+      },
+      "creatorTradingFeePercentage": 0,
+      "tokenUpdateAuthority": 1,
+      "migrationFee": {
+        "feePercentage": 0,
+        "creatorFeePercentage": 0
+      },
+      "migratedPoolFee": {
+        "collectFeeMode": 0,
+        "dynamicFee": 0,
+        "poolFeeBps": 0
+      },
+      "poolCreationFee": "0",
+      "partnerLiquidityVestingInfo": {
+        "vestingPercentage": 0,
+        "bpsPerPeriod": 0,
+        "numberOfPeriods": 0,
+        "cliffDurationFromMigrationTime": 0,
+        "frequency": 0
+      },
+      "creatorLiquidityVestingInfo": {
+        "vestingPercentage": 0,
+        "bpsPerPeriod": 0,
+        "numberOfPeriods": 0,
+        "cliffDurationFromMigrationTime": 0,
+        "frequency": 0
+      },
+      "migratedPoolBaseFeeMode": 0,
+      "migratedPoolMarketCapFeeSchedulerParams": {
+        "numberOfPeriod": 0,
+        "sqrtPriceStepBps": 0,
+        "schedulerExpirationDuration": 0,
+        "reductionFactor": "0"
+      },
+      "enableFirstSwapWithMinFee": false,
+      "compoundingFeeBps": 0,
+      "padding": [],
+      "curve": [
+        {
+          "sqrtPrice": "368934881474191028",
+          "liquidity": "109229166465716155545943430087873"
+        },
+        {
+          "sqrtPrice": "79226673521066979257578248091",
+          "liquidity": "3370327871267820111672321"
+        }
+      ]
+    },
+    "limitations": "Independent launch-state SDK simulations. No cumulative trading, RPC, mainnet usage, live quotes, or executed DAMM migration is claimed."
+  }
+]

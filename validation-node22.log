@@ -1,0 +1,106 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+(node:40) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TAP version 13
+# (node:47) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+# Subtest: quotes use official SDK integer output regression
+ok 1 - quotes use official SDK integer output regression
+  ---
+  duration_ms: 74.233198
+  type: 'test'
+  ...
+# Subtest: fee decomposition balances to exact input
+ok 2 - fee decomposition balances to exact input
+  ---
+  duration_ms: 49.8407
+  type: 'test'
+  ...
+# Subtest: higher fees reduce output with equal curve settings
+ok 3 - higher fees reduce output with equal curve settings
+  ---
+  duration_ms: 98.410231
+  type: 'test'
+  ...
+# Subtest: slippage changes floor and not output
+ok 4 - slippage changes floor and not output
+  ---
+  duration_ms: 92.562765
+  type: 'test'
+  ...
+# Subtest: oversized swap rejected visibly
+ok 5 - oversized swap rejected visibly
+  ---
+  duration_ms: 51.503749
+  type: 'test'
+  ...
+# Subtest: each quote is independent of previous inputs
+ok 6 - each quote is independent of previous inputs
+  ---
+  duration_ms: 92.626261
+  type: 'test'
+  ...
+# Subtest: migration and locking policy retained
+ok 7 - migration and locking policy retained
+  ---
+  duration_ms: 0.747889
+  type: 'test'
+  ...
+# Subtest: integer precision above JS safe range
+ok 8 - integer precision above JS safe range
+  ---
+  duration_ms: 0.195775
+  type: 'test'
+  ...
+# Subtest: invalid amount spellings fail
+ok 9 - invalid amount spellings fail
+  ---
+  duration_ms: 0.446614
+  type: 'test'
+  ...
+# Subtest: invalid numeric parameters fail before simulation
+ok 10 - invalid numeric parameters fail before simulation
+  ---
+  duration_ms: 0.510591
+  type: 'test'
+  ...
+# Subtest: unknown fields and empty arrays fail
+ok 11 - unknown fields and empty arrays fail
+  ---
+  duration_ms: 0.2586
+  type: 'test'
+  ...
+# Subtest: config integers serialized as decimal strings
+ok 12 - config integers serialized as decimal strings
+  ---
+  duration_ms: 48.153402
+  type: 'test'
+  ...
+# Subtest: reproducible input digest changes on meaningful input
+ok 13 - reproducible input digest changes on meaningful input
+  ---
+  duration_ms: 181.067774
+  type: 'test'
+  ...
+# Subtest: HTML escapes user-controlled title and embeds no external scripts
+ok 14 - HTML escapes user-controlled title and embeds no external scripts
+  ---
+  duration_ms: 48.503521
+  type: 'test'
+  ...
+# Subtest: CLI outputs usable JSON and rejects malformed invocation
+ok 15 - CLI outputs usable JSON and rejects malformed invocation
+  ---
+  duration_ms: 615.637009
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1635.445936

@@ -1,0 +1,1 @@
+{"name":"Low fee launch","totalSupply":1000000000,"initialMarketCap":30,"migrationMarketCap":400,"baseDecimals":6,"quoteDecimals":9,"feeBps":25,"slippageBps":100,"quoteAmounts":["0.01","0.1","1","10","1000000"]}
